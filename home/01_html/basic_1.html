@@ -2,20 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Домашнее задание 1.1 (SC1-115-22)</title>
+	<title>Homework 1.1 (SC1-115-22)</title>
 	  <style>
    		h1 {
     	margin-bottom: +30px; 
    		}
-   			P {
-    		margin-bottom: +30px; 
-   			}
-   				a {
-   					text-decoration: none;
-   				}
-   					body {
-   						margin-left: 35px;
-   					}
+		P {
+			margin-bottom: +30px;
+		}
+		a {
+			text-decoration: none;
+		}
+		body {
+			margin-left: +105px;
+			margin-right: +700px;
+		}
   </style>
 </head>
 <body link="black">
@@ -35,18 +36,19 @@
 		Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не<br>
 		обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим<br>
 		создание консольных приложений, а в следующей — программирование графических<br>
-		интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо сейчас.</P>
+		интерфейсов (<u>GUI</u>). Давайте создадим простую программу прямо сейчас.
+	</P>
 	<H3>Наша первая программа</H3>
 	<P>
 		Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает<br>
 		каждая строка и пойдём дальше.</P>
 	<P>Введите эти 4 строки:</P>
-	<P><code>
+	<code>
 		#!/usr/bin/env python<br>
 		print 'Hello. I am a python program.'<br>
 		name = raw_input("What is your name?")<br>
 		print "Hello there, " + name + "!"
-	</code></P>
+	</code>
 		<P>Это всё. Сохраните файл как 
 			<a href="hello.py"><strong>hello.py</strong></a> 
 		в любом месте. Я предлагаю сохранить его в папке<br>
@@ -58,24 +60,24 @@
 	<P>
 		в папке, в которой вы сохранили программу. Теперь запустите её.
 	</P>
-	<P><code>
+	<code>
 		greg@earth:~/python_examples$ ./hello.py<br>
 		Hello. I am a python program.<br>
 		What is your name? Ferd Burphel<br>
 		Hello there, Ferd Burphel!<br>
 		greg@earth:~/python_examples$<br>
-	</code></P>
+	</code>
 	<p>Вот и всё.</p>
 	<H2>Пример цикла For</H2>
 	<P>
 		Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый<br>
 		редактор и наберите следующую программу:
 	</P>
-	<P><pre><code>
+	<pre><code>
 #!/usr/bin/env python
 for cntr in range(0,10):
     print cntr
-	</code></pre></P>
+	</code></pre>
 	<P>
 		<i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В<br>
 		Python для указания на блоки кода используются не круглые «<strong>(</strong>» и фигурные «<strong>{</strong>» скобки<br>
