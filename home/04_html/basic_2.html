@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 1.2 (SC1-115-22)</title>
+    <style>
+        h1 {
+            margin-bottom: +30px;
+        }
+        P {
+            margin-bottom: +30px;
+        }
+        body {
+            margin-left: +105px;
+            margin-right: +700px;
+        }
+        hr {
+            border: 500px;
+            background-color: gray;
+            color: gray;
+            height: 2px;
+        }
+    </style>
+</head>
+<body>
+<img src="images/logo-python.png" alt="Logo" style="float:right; margin-left:10px; margin-right: 30px;" height="300">
+<H1>HOW-TO: Программа на Python, Часть 2</H1>
+<ul>
+    <li><a href="basic_1.html"><em>Программа на Python — часть 1</em></a></li>
+    <li><a href="basic_2.html"><em>Программа на Python — часть 2</em></a></li>
+    <li><a href="basic_3.html"><em>Программа на Python — часть 3</em></a></li>
+</ul>
+<H2><a href="top"></a>Содержание</H2>
+<ul>
+    <li><a href="#lists">Списки</a></li>
+    <li><a href="#comments">Комментарии</a></li>
+</ul>
+<hr>
+<P>
+    Впрошлом уроке мы рассмотрели простую программу, которая использовала raw_input<br>
+    для получения ответа пользователя, простые типы переменных и простой цикл «<b>for</b>». В<br>
+    этом уроке мы рассмотрим ещё больше типов переменных и напишем ещё больше<br>
+    программ.
+</P>
+<H2><a name="lists"></a>Списки</H2>
+<a href="#top">К содержанию</a>
+<P>
+    Давайте рассмотрим другой тип переменных, который называется списки. В других<br>
+    языках программирования они называются массивами. Если мы обратимся к аналогии с<br>
+    коробками для обуви, то массив (список) представляет собой несколько склеенных друг с<br>
+    другом коробок с одинаковыми вещами. Например, в одной коробке лежат вилки, в<br>
+    другой — ножи, в третьей — ложки. Посмотрим на простой список— список месяцев. Мы<br>
+    запрограммируем его так:
+</P>
+<code>
+    months =<br>
+    ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+</code>
+<P>
+    Чтобы создать список, мы заключили все значения в квадратные скобки ( '<b>[</b>' и '<b>]</b>' ). Мы<br>
+    назвали наш список 'months'. Чтобы использовать список, мы дадим команду print<br>
+    <b>months[0]</b> или <b>months[1]</b> (которые выведут на экран 'Jan' или 'Feb'). Помните: счет<br>
+    начинается с нуля. Чтобы найти длину списка, можно использовать такую функцию:<br>
+</P>
+<code>
+    print len(months)
+</code>
+<P>которая вернёт 12.</P>
+<P>Ещё один пример списков — категории в поваренной книге. Например…</P>
+<code>
+    categories = ['Main dish','Meat','Fish','Soup','Cookies']
+</code>
+<P>
+    Таким образом, в <b>categories[0]</b> хранится 'Main dish', а в <b>categories[4]</b> — 'Cookies'. Всё<br>
+    очень просто. Я уверен, вы сможете придумать много других примеров использования<br>
+    списков.
+</P>
+<hr>
+<H2><a name="comments"></a>Комментарии</H2>
+<a href="#top">К содержанию</a>
+<P>
+    Далее, мы должны обсудить комментарии. Комментарии важны по нескольким причинам.<br>
+    Они не только говорят вам или другим людям, что вы пытаетесь делать, но и напомнят<br>
+    вам через полгода, что же вы хотели сделать. Когда вы будете писать много программ,<br>
+    комментарии станут важными. Также при их помощи вы заставите Python игнорировать<br>
+    какие-либо части кода. Чтобы закомментировать строку, поставьте перед ней знак '<i>#</i>'.<br>
+    Например:
+</P>
+<code>
+    #
+</code>
+<P>
+    Это комментарий
+</P>
+<p>
+    Комментарии можно вставлять в любое место в строке, но помните, что Python<br>
+    проигнорирует всё, что идёт после '#'.
+</p>
+<table align="left" width="80%" style="margin-bottom: 50px;">
+    <tr>
+        <td align="left">
+            <form action="basic_1.html" method="get">
+                <input type="image" src="images/prev.png" height="30">
+            </form>
+        </td>
+        <td align="center">
+            <a href="#top"><img src="images/home.png" height="30"></a>
+        </td>
+        <td align="right">
+            <form action="basic_3.html" method="get">
+                <input type="image" src="images/next.png" height="30">
+            </form>
+        </td>
+    </tr>
+</table>
+<table align="left" width="80%" style="margin-bottom: 50px;">
+    <tr>
+        <td align="left">
+            <form action="basic_1.html" method="get">
+                <input type="image" src="images/left.svg" height="30">
+            </form>
+        </td>
+        <td align="center">
+            <a href="#top"><img src="images/home.svg" height="30"></a>
+        </td>
+        <td align="right">
+            <form action="basic_3.html" method="get">
+                <input type="image" src="images/right.svg" height="30">
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
