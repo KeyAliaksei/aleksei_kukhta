@@ -1,0 +1,22 @@
+h3 {
+    font-weight: bold;
+    text-align: right;
+}
+address {
+    text-align: right;
+}
+.class_1 {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2 {
+    margin-left: 30px;
+    text-decoration: underline;
+    font-family: "Pacifico", cursive;
+}
+.class_2 {
+    font-family: "Comforter", cursive;
+    font-size: larger;
+    text-indent: 30px;
+}
