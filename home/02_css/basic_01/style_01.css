@@ -1,7 +1,15 @@
-div {
+.cl3 {
     width: 200px;
     height: 300px;
     border: black 1px;
     background-repeat: no-repeat;
     float:left;
+}
+.cl4 {
+    width: 140px;
+    height: 190px;
+    border: black 1px;
+    background-repeat: no-repeat;
+    float:left;
+    background-position: 5px -200px;
 }

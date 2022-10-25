@@ -1,0 +1,19 @@
+.navigation_block {
+    width: 15em;
+    background: cornflowerblue;
+    float: left;
+}
+.article {
+    width: 85%;
+    background: blueviolet;
+    margin-bottom: 0.2em;
+    float: left;
+}
+.footer {
+    width: 100%;
+    background: lightblue;
+    clear: both;
+}
+.main {
+    background: bisque;
+}
