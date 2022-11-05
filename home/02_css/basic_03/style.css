@@ -4,10 +4,8 @@
     float: left;
 }
 .article {
-    width: 85%;
     background: blueviolet;
     margin-bottom: 0.2em;
-    float: left;
 }
 .footer {
     width: 100%;
@@ -15,5 +13,9 @@
     clear: both;
 }
 .main {
+    width: auto;
     background: bisque;
+}
+.wrap{
+    margin-left: 15em;
 }
