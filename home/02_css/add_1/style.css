@@ -1,0 +1,25 @@
+.background {
+    background:
+            url("images/l-t.png") no-repeat top left,
+            url(images/r-t.png) no-repeat top right,
+            url(images/l-b.png) no-repeat bottom left,
+            url(images/r-b.png) no-repeat bottom right,
+            url(images/l.png) repeat-y left,
+            url(images/t.png) repeat-x top,
+            url(images/r.png) repeat-y right,
+            url(images/b.png) repeat-x bottom;
+    width: 90%;
+    padding: 2.5em;
+    overflow: auto;
+}
+
+/* task_3 */
+.frame{
+    border-image-slice: 100;
+    border-style: solid;
+    border-width: 20px;
+    width: 95%;
+    border-image-source: url(images/ramka.png);
+    border-image-repeat: round;
+    border-image-width: 40px;
+}

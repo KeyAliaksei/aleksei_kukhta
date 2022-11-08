@@ -1,0 +1,29 @@
+.navigation_block {
+    width: 15em;
+    background: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+.article {
+    background: blueviolet;
+    margin-bottom: 0.2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer {
+    background: lightblue;
+    display: flex;
+    flex: auto;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    background: bisque;
+}
+.wrap-articles{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
