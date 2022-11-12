@@ -21,9 +21,14 @@
     flex-direction: row;
     background: bisque;
 }
-.wrap-articles{
+.wrap-articles {
     background: black;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+.image {
+    display:flex;
+    align-self: flex-end;
+    height: 100px
 }

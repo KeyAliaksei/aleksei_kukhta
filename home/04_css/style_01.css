@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+div {
+    width: 650px;
+    border: groove;
+    border-radius: 0 15px 0 15px;
+}
+
+ul {
+    list-style-image: url("images/list.jpeg");
+}
+
+li > a[href="https://en.wikipedia.org/wiki/Word"]:hover::after {
+    content: url("images/word.jpeg");
+}
+
+li > a[href="https://en.wikipedia.org/wiki/PDF"]:hover::after {
+    content: url("images/pdf.png");
+}
+
+li > a[href="https://en.wikipedia.org/wiki/Zip"]:hover::after {
+    content: url("images/archif.gif");
+}
